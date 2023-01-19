@@ -8,41 +8,45 @@ img {
 }
 
 #face {
+    position: fixed;
+    left: 100px;
+    top: 100px;
     width: 300px;
-    top: 10px;
-    left: 50px;
 }
 
 #eyes1 {
     position: fixed;
-    width: 100px;
-    left: 110px;
+    width: 150px;
+    height: 80px;
+    left: 180px;
+    top: 210px;
+}
+
+#hat {
+    width: 90px;
+    left: 220px;
     top: 130px;
+    position: fixed;
 }
 
-#mouth1 {
+#mouth2 {
     position: fixed;
-    left: 130px;
-    top: 230px;
+    left: 230px;
+    top: 340px;
+    width: 80px;
 }
 
-#nose2 {
+#nose1 {
     position: fixed;
-    left: 130px;
-    top: 170px;
-}
-
-#hair1 {
-    position: fixed;
-    width: 220px;
-    left: 50px;
-    top: 10px;
+    left: 230px;
+    top: 290px;
+    z-index: 1;
+    width: 40px;
 }
 
 #ears1 {
-    width: 40%;
     position: fixed;
-    top: 45px;
-    left: 24px;
-    z-index: 1;
+    width: 280px;
+    left: 110px;
+    top: 120px;
 }
