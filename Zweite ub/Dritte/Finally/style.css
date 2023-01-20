@@ -1,0 +1,64 @@
+/*.menu {
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    left: 530px;
+    padding: 1px;
+}*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/*a {
+    text-decoration: none;
+    justify-content: space-between;
+    margin: 15px;
+}*/
+
+li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+p {
+    text-shadow: 1px 1px 1px black;
+}
+
+.logo {
+    position: relative;
+    width: 130px;
+    height: 70px;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/14/12/59/iceland-1979445_1280.jpg);
+}
+
+.Foto {
+    text-align: center;
+}
+
+.Foto1 {
+    box-shadow: 3px 3px 10px black;
+}
